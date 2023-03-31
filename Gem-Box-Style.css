@@ -1,0 +1,24 @@
+h1 {
+    text-align: center;
+    font-size: large;
+    color:lightseagreen;  
+    background-position: 0px auto;  
+    background-color: lavenderblush;
+}
+img {
+    width: 120px;
+    height: 100px;
+}
+p {
+    text-align: center;
+}
+table {
+    border: 10px solid black;
+    width: 75%;
+    margin: 0px auto;
+}
+td, th {
+    border: 5px solid black;
+    text-align: center;
+    padding: 5px;
+}
