@@ -1,9 +1,17 @@
+body {
+    background-image: url(wood-test.jpg);
+}
 h1 {
     text-align: center;
     font-size: large;
-    color:lightseagreen;  
+    color:rgb(78, 90, 255);  
     background-position: 0px auto;  
     background-color: lavenderblush;
+    width: 300px;
+    height: 40px;
+    padding: 1%;
+    font-family: "monospace";
+    
 }
 img {
     width: 120px;
@@ -11,6 +19,7 @@ img {
 }
 p {
     text-align: center;
+    color: white;
 }
 table {
     border: 10px solid black;
@@ -18,6 +27,12 @@ table {
     margin: 0px auto;
 }
 td, th {
+    background-color: rgb(141, 104, 79);
+    width:100px;
+    text-align: left;
+    font-family: "monospace";
+    font-size: 14px;
+    color:blanchedalmond;
     border: 5px solid black;
     text-align: center;
     padding: 5px;
