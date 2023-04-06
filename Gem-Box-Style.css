@@ -11,29 +11,24 @@ h1 {
     height: 40px;
     padding: 1%;
     font-family: "monospace";
-    
-}
-img {
-    width: 120px;
-    height: 100px;
 }
 p {
     text-align: center;
     color: white;
 }
-table {
-    border: 10px solid black;
-    width: 75%;
-    margin: 0px auto;
+#outer-box {
+    width: 900px;
+    height: 900px;
+    margin: 0 auto;
+    background-color: burlywood;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    grid-column-gap: 3px;
+    grid-row-gap: 3px; 
+
 }
-td, th {
-    background-color: rgb(141, 104, 79);
-    width:100px;
-    text-align: left;
-    font-family: "monospace";
-    font-size: 14px;
-    color:blanchedalmond;
-    border: 5px solid black;
-    text-align: center;
-    padding: 5px;
+.box-section {
+    background-color: cornsilk;
+    border: solid black;
 }
