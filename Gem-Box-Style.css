@@ -24,11 +24,25 @@ p {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     grid-template-rows: repeat(3, 1fr);
-    grid-column-gap: 3px;
-    grid-row-gap: 3px; 
+    grid-column-gap: 5px;
+    grid-row-gap: 5px; 
 
 }
 .box-section {
-    background-color: cornsilk;
-    border: solid black;
+    background-image: radial-gradient(black, rgb(110, 54, 54));
+    border: solid rgb(80, 24, 24);
+    
+}
+img {  
+    max-width: 100%;  
+    height: auto;    
+}
+label {
+    background-image: url(label.png);
+    text-align: center;
+    display: block;
+    width: 70%;
+    margin: 10px auto;
+    font-family: 'Courier Prime', monospace;
+    font-size: 12px;
 }
