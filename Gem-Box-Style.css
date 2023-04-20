@@ -1,5 +1,5 @@
 body {
-    background-image: url(wood-test.jpg);
+    background-image: url(Velvet-Texture.jpg);
 }
 h1 {
     text-align: center;
@@ -17,21 +17,22 @@ p {
     color: white;
 }
 #outer-box {
-    width: 900px;
-    height: 900px;
+    max-width: 900px;
+    height: auto;
     margin: 0 auto;
     background-color: burlywood;
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     grid-template-rows: repeat(3, 1fr);
-    grid-column-gap: 5px;
-    grid-row-gap: 5px; 
-
+    grid-column-gap: 10px;
+    grid-row-gap: 10px; 
+    border-image-slice: 30;
+    border-image-source: url("Vertical-Wood-Border.jpg");
+    border-style: solid;
+    border-width: 20px;
 }
 .box-section {
-    background-image: radial-gradient(black, rgb(110, 54, 54));
-    border: solid rgb(80, 24, 24);
-    
+    background-color: #edddaf;
 }
 img {  
     max-width: 80%;  
@@ -41,7 +42,7 @@ label {
     background-image: url(label.png);
     text-align: center;
     display: block;
-    width: 70%;
+    width: 80%;
     margin: 10px auto;
     font-family: 'Courier Prime', monospace;
     font-size: 12px;
