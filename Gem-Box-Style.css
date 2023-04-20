@@ -1,5 +1,5 @@
 body {
-    background-image: url(wood-test.jpg);
+    background-image: url(Velvet-Texture.jpg);
 }
 h1 {
     text-align: center;
@@ -11,29 +11,39 @@ h1 {
     height: 40px;
     padding: 1%;
     font-family: "monospace";
-    
-}
-img {
-    width: 120px;
-    height: 100px;
 }
 p {
     text-align: center;
     color: white;
 }
-table {
-    border: 10px solid black;
-    width: 75%;
-    margin: 0px auto;
+#outer-box {
+    max-width: 900px;
+    height: auto;
+    margin: 0 auto;
+    background-color: burlywood;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    grid-column-gap: 10px;
+    grid-row-gap: 10px; 
+    border-image-slice: 30;
+    border-image-source: url("Vertical-Wood-Border.jpg");
+    border-style: solid;
+    border-width: 20px;
 }
-td, th {
-    background-color: rgb(141, 104, 79);
-    width:100px;
-    text-align: left;
-    font-family: "monospace";
-    font-size: 14px;
-    color:blanchedalmond;
-    border: 5px solid black;
+.box-section {
+    background-color: #edddaf;
+}
+img {  
+    max-width: 80%;  
+    height: auto;    
+}
+label {
+    background-image: url(label.png);
     text-align: center;
-    padding: 5px;
+    display: block;
+    width: 80%;
+    margin: 10px auto;
+    font-family: 'Courier Prime', monospace;
+    font-size: 12px;
 }
