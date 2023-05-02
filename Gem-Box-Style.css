@@ -1,6 +1,12 @@
 body {
     background-image: url(Velvet-Texture.jpg);
 }
+#logo {
+    display: inline-block;
+    margin: 0 auto;
+    width: 40%;
+    height: 40%;
+}
 h1 {
     text-align: center;
     font-size: large;
@@ -20,7 +26,7 @@ p {
     max-width: 900px;
     height: auto;
     margin: 0 auto;
-    background-color: burlywood;
+    background-image: url(inner-wood-panel.jpg);
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     grid-template-rows: repeat(3, 1fr);
@@ -36,7 +42,8 @@ p {
 }
 img {  
     max-width: 80%;  
-    height: auto;    
+    height: auto;
+    margin: 10px auto;    
 }
 label {
     background-image: url(label.png);
