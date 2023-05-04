@@ -41,9 +41,11 @@ p {
     background-color: #edddaf;
 }
 img {  
-    max-width: 80%;  
+    display:block;
+    max-width: 100%;  
     height: auto;
-    margin: 10px auto;    
+    margin: 10px auto;
+        
 }
 label {
     background-image: url(label.png);
